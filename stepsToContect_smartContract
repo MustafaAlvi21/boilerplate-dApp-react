@@ -1,0 +1,13 @@
+after cloning project 
+
+npm i
+
+update "src/contracts/ContractName.sol" with contract code
+
+update "migrations/2_deploy.js" with contract name
+
+perform npm compile
+
+perform npm migrate --reset
+
+npm start
