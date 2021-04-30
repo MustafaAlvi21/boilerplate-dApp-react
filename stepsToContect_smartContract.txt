@@ -1,5 +1,8 @@
 after cloning project 
 
+Ganache desktop app always run during the project  // never turn off or close this
+    => you can download it from this link "https://www.trufflesuite.com/ganache" 
+
 npm i
 
 npm audit fix (if required)
