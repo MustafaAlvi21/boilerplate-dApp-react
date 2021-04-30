@@ -1,5 +1,5 @@
-const drugValidation = artifacts.require("drugValidation");
+const ContractName = artifacts.require("ContractName");
 
 module.exports = async function(deployer) {
-	await deployer.deploy(drugValidation)
+	await deployer.deploy(ContractName)
 };

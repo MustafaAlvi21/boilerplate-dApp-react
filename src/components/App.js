@@ -44,10 +44,14 @@ function App() {
       const contractData = new web3.eth.Contract(importedContract.abi, networkData.address)
       setMyContract(contractData)
       
-      const result = await contractData.methods.getAllUsers().call()
-      // const result = await contractData.methods.registerAccount("Mustafa", "0xA921A30BFED52e864D24B6277ef84E23798a4cC8").send( {from: accounts[0], gas:3000000} )
+      // -------------------------------------------------------------------//
+     // This is the area where we can communicate with "contract methods"  //
+    // -------------------------------------------------------------------//
 
-      console.log(result);
+      // const result = await contractData.methods.getAllUsers().call()
+      // const result = await contractData.methods.registerAccount("Mustafa", "0xA921A30BFED52e864D24B6277ef84E23798a4cC8").send( {from: accounts[0], gas:3000000} )
+      // console.log(result);
+
 
       
     } else {
